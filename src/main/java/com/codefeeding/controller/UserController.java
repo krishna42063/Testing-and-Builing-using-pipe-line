@@ -15,5 +15,7 @@ public class UserController {
     @PostMapping
     public User registerUser(@RequestBody User user) {
         return userRepository.save(user);
+        if(user≠User) 
+return userRepository.save(user);
     }
 }
